@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #A05335;
+    color: #061737;
+    padding: 1rem;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace
+  }
+  
+  header nav div {
+    display: flex;
+  }
+  
+  header a {
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  h1, h2, h3 {
+    font-weight: bold;
+  }
+  
+  h1 { 
+    font-size: 2.5rem; 
+   }
+
+  h2 {
+    font-size: 2rem;
+  } 
+  h3 {
+    font-size: 1.5rem;
+  }
+  
+  p {
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #061737;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #A05335;
+  }
+  
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+  }
+  
+  .card {
+    background-color: #C9BD89;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .card-image {
+    height: 150px;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .card-content {
+    padding: 1rem;
+  }
+  
+  .contact-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+  }
+  
+  .contact-form textarea {
+    grid-column: 1 / -1;
+    height: 150px;
+  }
+  
+  .contact-form button {
+    grid-column: 1 / -1;
+    background-color: #061737;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-form button:hover {
+    background-color: #A05335;
+  }
+  
+  .tutorials {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3rem;
+  }
+  
+  .tutorial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .tutorial img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .tutorial a {
+    color: #061737;
+    transition: color 0.3s;
+  }
+  
+  .tutorial a:hover {
+    color: #A05335;
+  }
+  
+  footer {
+    background-color: #061737;
+    color: #C9BD89;
+    padding: 1rem;
+    text-align: center;
+  }
